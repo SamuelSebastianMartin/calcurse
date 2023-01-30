@@ -31,7 +31,7 @@ Rather than delete the contents, you may wish to rename them with `.old`, in cas
 
 ```
 cd ~/.local/share/calcurse/
-ls | xargs I {} mv {} {}.old
+ls | xargs -I {} mv {} {}.old
 ```
 
 ### 4 Set up symbolic links to the synced files.
