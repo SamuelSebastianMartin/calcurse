@@ -1,0 +1,4 @@
+
+on save, run git commit -am 'update'
+
+alias: concurse='cd ~/.sync/concourse; concourse'

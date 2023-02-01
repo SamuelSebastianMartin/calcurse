@@ -1,0 +1,5 @@
+
+bookmarks
+alias
+  + ? -> search
+  + lynx = lynx --accept-all-cookis
