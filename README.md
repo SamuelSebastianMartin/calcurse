@@ -43,6 +43,16 @@ ln -s ~/.sync/calcurse/apts apts
 ln -s ~/.sync/calcurse/notes notes
 ln -s ~/.sync/calcurse/todo todo
 ```
+
+### 5 Sync setup
+
+Less everyday than the above, to give the same theme, colours and
+settings in new installations, one can also sync the config files.
+
+Set up a similar symlink in `~/.config/calcurse/`, at least for the
+`conf` file, which gives. `keys` is only necessary with changed
+shortcuts, which I don't use. God knows what the `hooks` directory
+is for, but it is empty.
 ### Finally
 
 commit the `~/.sync/calcurse/` changes to github
