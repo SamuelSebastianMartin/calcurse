@@ -17,7 +17,6 @@ daemon.log=no
 format.inputdate=2
 format.notifydate=%a %F
 format.notifytime=%T
-format.appointmenttime=%H:%M
 format.outputdate=%d/%m/%y
 format.dayheading=%a %e %b %Y
 general.autogc=no
